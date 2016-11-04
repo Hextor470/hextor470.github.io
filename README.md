@@ -1,14 +1,14 @@
-# Musical Scales Explorer
+﻿# Musical Scales Explorer
 
 ----
 ## What is This? (Some Kind of Intro)
 
 
- Hello! This is my first ever web-app. Recently, I've decided to become a front-end developer (afrer  years of very serious work in nuclear energy company as departmend lead). Since my competition in the information consumption begins...
+ Hello! This is my first ever web-app. Recently, I've decided to become a front-end developer (afrer years of working in nuclear energy company as departmend lead). At this point my competition in the information consumption has started...
 
- Also I love to play and learn music. Once I've run into some difficulties with this. I use a lot of different tools, but for my issue there was no one. Then I realize to try to apply my fresh knowledge of JavaScript, jQuery and Bootstrap.
+ Also I love to play and learn music. Once I've run into some difficulties with this. I use a lot of different tools, but none of them suited to solve the issue. Then I realized I could apply my fresh knowledge of JavaScript, jQuery and Bootstrap for that purpose.
 
- It was very tought days, many cups of coffee, stackoverflow searching, moments of hope and despair. After a couple of weeks the work was completed and I became a one of the happiest person in the World (actually not for a long time).
+ Those were very tough days, numerous cups of coffee, stackoverflow searching, moments of hope and despair. After a couple of weeks the work was completed and I became one of the happiest people in the World (actually not for a long time).
 
  I had no plans to publish my application anywhere, but right now it's the only thing that I can show in portfolio. Here we go!
 
@@ -51,15 +51,14 @@
 * Displaying notes of selected scale and tonality;
 * Displaying alterations of natural major scale;
 * Easy switching modes of selected scales;
-* Opportunity to select scales to display (by Modal Window).
+* Possibility to select scales to display (by Modal Window).
 
 ----
 ## Аdditionally
 * Due to the fact that it was a project for my own usage:
- * Quality of code is too low;
+ * Quality of code is not a masterpiece;
  * DIY design and UX;
- * There was no browser 
-compatibility. If you want to try, use Chrome;
+ * The App wasn't adjusted for browser compatibility. Use Chrome for the better experience;
  * There was no perfomance optimization;
 * Development took about 4 weeks;
 * The code was developed in the structural / functional paradigm, due to lack of sufficient knowledge of the OOP at the time;
