@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="Musical Calculator">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Musical Scales Explorer</title>
+    <script src="js/jquery.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magic.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Kreon:700|Lato:300,300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+  <div class="page-header">
+    <h1>Musical Scales Explorer</h1>
+  </div>
+
+
+
+  <section id="input">
+    <div class="btn-group btn-group-justified" role="group" id="basicModes"></div>
+    <div class="progress intervals" id="intervals">Choose one of the scales</div>
+    <div class="btn-group btn-group-justified" role="group" id="roots"></div>
+  </section>
+
+
+
+  <figure id="panel">
+    <div class="panel panel-primary" id="panel">
+    <div class="panel-heading" id="names"></div>
+    <div class="panel-body">
+      <img src="img/arrow-wh.png" alt="" class="arr arr-prev">
+      <h4 id="ordName"></h4>
+      <img src="img/arrow-wh.png" alt="" class="arr arr-next">
+      <div id="aux-dists" hidden></div>
+      <div class="btn-group btn-group-justified output" role="group" id="degrees"></div>
+      <div class="btn-group btn-group-justified output" role="group" id="notes"></div>
+      <div class="btn-group btn-group-justified output" role="group" id="chords"></div>
+    </div>
+    </div>
+  </figure>
+
+
+
+  <figure id="piecont">
+    <div class="arrow" id="arrow"><img usemap="#arrmap" src="img/arrow.png"></div>
+    <svg width="400" height="400" class="diatonic pie" id="pie"></svg>
+    <svg width="240" height="240" class="shadin" ></svg>
+  </figure>
+
+
+  <map name="arrmap">
+      <area shape="circle" class ="arcl" coords="35,25,100" href="" />
+  </map>
+
+
+<!--  <div class="message animated bounceIn hidden"><img src="img/message.png" alt="" align="middle"></div>-->
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="optModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+        <h3 class="modal-title" id="gridSystemModalLabel">Select Visible Scale Families </h3>
+      </div>
+      <div class="modal-body">
+        <div class="ch-container"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-primary">Save &  Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+  <p class = "copyright"><span>&copy;</span> 2016 Lex Falconie. All rights are not available</p>
+
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
