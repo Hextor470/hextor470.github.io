@@ -2,10 +2,19 @@ html {
   height: 100%;
 }
 
+#wrapper {
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-bottom: 90px;
+}
+
+
 body {
   font-family: 'Lato', sans-serif;
   padding: 0 11%;
   margin: 0 auto;
+  height: 95%;
 /*
   padding: 0 20px;
   width: 80%;
@@ -13,6 +22,16 @@ body {
   background-image: radial-gradient(#cde6f9, #81a8cb);
 
 }
+
+
+
+.copyright {
+  height: 40px;
+  margin-top: -40px;
+  padding: 10px;
+  text-align: center;
+}
+
 
 h1, h3, h4 {
     cursor: default;
@@ -321,14 +340,6 @@ svg:active {
 
 
 
-.copyright {
-  position: absolute;
-/*  top: 900px;*/
-  bottom: 20px;
-  width: 80%;
-  text-align: center;
-  margin: 0 auto 20px;
-}
 
 .modal-body {
   overflow: auto;
