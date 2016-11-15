@@ -1,6 +1,7 @@
-﻿# Musical Scales Explorer
+# Musical Scales Explorer
 
 ----
+[open at GitHub Pages](https://hextor470.github.io/)
 ## What is This? (Some Kind of Intro)
 
 
